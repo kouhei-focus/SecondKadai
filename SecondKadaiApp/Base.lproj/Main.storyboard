@@ -22,11 +22,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lt6-qp-BmG">
-                                <rect key="frame" x="68" y="497" width="279" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="1lS-69-gBt"/>
-                                    <constraint firstAttribute="width" constant="280" id="WYf-Ts-aoX"/>
-                                </constraints>
+                                <rect key="frame" x="68" y="497" width="279" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="次へ"/>
                                 <connections>
@@ -44,13 +40,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="x3l-0K-lvT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="172" id="11s-lF-yA2"/>
-                            <constraint firstItem="Lt6-qp-BmG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="2uV-uH-DRg"/>
                             <constraint firstItem="CPS-Vi-zFi" firstAttribute="top" secondItem="x3l-0K-lvT" secondAttribute="bottom" constant="81" id="58R-BI-k3s"/>
                             <constraint firstItem="CPS-Vi-zFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="E01-gn-Rjg"/>
-                            <constraint firstItem="Lt6-qp-BmG" firstAttribute="top" secondItem="CPS-Vi-zFi" secondAttribute="bottom" constant="136" id="KiD-Vp-eUp"/>
+                            <constraint firstItem="Lt6-qp-BmG" firstAttribute="top" secondItem="CPS-Vi-zFi" secondAttribute="bottom" constant="136" id="FUE-aQ-6XK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x3l-0K-lvT" secondAttribute="trailing" constant="67" id="Q1S-dj-9zh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lt6-qp-BmG" secondAttribute="trailing" constant="67" id="WQf-CI-6Vy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lt6-qp-BmG" secondAttribute="trailing" constant="67" id="Ros-gw-Cpc"/>
                             <constraint firstItem="x3l-0K-lvT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="aAs-mE-Jg0"/>
+                            <constraint firstItem="Lt6-qp-BmG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="fMl-Al-NJJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CPS-Vi-zFi" secondAttribute="trailing" constant="50" id="qFj-Fu-wKQ"/>
                         </constraints>
                     </view>

@@ -20,7 +20,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLabel.text = labelText
+        nameLabel.text = "こんにちは、" + labelText + "さん"
         
 
         // Do any additional setup after loading the view.
